@@ -1,0 +1,38 @@
+check the value of optimizelyEndUserId
+if(optimizelyEndUserId starts with lo_) {
+    // means user is logged out/ or he didnt login at all
+    //if(// he might be seeing paywall)
+    //    msg = "you just saw paywall etc"
+    //else(// he might not be seeing paywall)
+    msg = "you should login to see all the premium articles of medium"
+
+    Ask him confirm() message
+    Ask him which login does he use.
+    Store in localstorage
+    Open sign in popup with chosen option
+    And location.href = <that url mention in btn>
+} else {
+    // means he is logged in
+    if(// he might be seeing paywall)
+        msg = "you just saw paywall etc"
+    log him out and will go on line 2 IF()...
+}
+
+
+DOM READY >> if you get ID of popup, get option from him if he didnt provide
+js-googleButton
+js-facebookButton
+js-twitterButton
+js-emailButton
+
+
+https://medium.com/coderbyte/the-best-technical-assessment-code-screening-platforms-of-2020-dc4983c627d0
+
+Medium : Premium Version! Chrome extension: Pratik Joshi (https://www.instagram.com/pratik.c.joshi/)
+The extension I created will let you browse Medium.com site for free for unlimited time! :) So what are you waiting for? Grab your extension from chrome store!
+
+https://youtu.be/aqTCrRbDL20
+
+
+Fun in the Sun
+Overcome
